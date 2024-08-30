@@ -1,1 +1,24 @@
-<p>artist works!</p>
+<div *ngIf="artist">
+    <h1>{{ artist.name }}</h1>
+    <p>
+        <img src="{{ artist.images[0].url }}">
+    </p>
+    <p>
+        Genres: {{ artist.genres }}
+    </p>
+    <p>
+        Followers: {{ artist.followers.total }}
+    </p>
+    <h2>Artist's Albums</h2>
+    
+    <div *ngFor = "let a of artistsAlbums.items" class="row">
+        <img src="{{ a.images[0].url }}" class="col-4">
+        <h4>
+            <a [routerLink]="['/albums', a.id]">
+            {{ a.name }}
+            </a>
+        </h4>
+        <hr>
+        </div>
+    <p><a href (click)="back()">Back</a></p>
+</div>
