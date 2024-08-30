@@ -12,7 +12,7 @@
     <h2>Artist's Albums</h2>
     
     <div *ngFor = "let a of artistsAlbums.items" class="row">
-        <img src="{{ a.images[0].url }}" class="col-4">
+        <img src="{{ a.images[0].url }}" class="col-4 album">
         <h4>
             <a [routerLink]="['/albums', a.id]">
             {{ a.name }}
