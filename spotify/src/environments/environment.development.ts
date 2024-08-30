@@ -1,0 +1,4 @@
+export const environment = {
+    production: false,
+    oauthToken: 'Bearer BQAvPQizcwr9vzXzDC4qcyLvewLxffl4aMsVFG21j6B2GQe-R6eegX__tSW6zNpFQ4mKEhr615n53lEtHbOEXRIS1cxIC1V29Pu6tIv2osNYzhpxYbBtJ8Diwer2_1z4vRpZjbSpavofSQCOqO3A6_dr4KqluMC3G3h9lqPX1pb16KDMIh0MAmRew0ECUuZeoAluGYlJ6Zp2Qc35EXlUcqkLzSsAhFa6QO9SROrTwU4Kq2-gR8HrPRMSm2Rvluc-mSbURHXbDer6dpliWQbyg4MK8o_A0MrWnOivJt8jGFqW8qfAhODx-N2e48llQ18fBNaOREblLsTLO5ZlDC3bv1ABcuOoKDc'
+  };
